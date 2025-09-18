@@ -20,19 +20,19 @@ ARGO FloatChat is an end-to-end platform that democratizes access to oceanograph
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    ARGO FloatChat Platform                     │
+│                    ARGO FloatChat Platform                      │
 ├─────────────────────────────────────────────────────────────────┤
-│  Frontend (Streamlit)  │  Backend (FastAPI)  │  Data Pipeline  │
-│  ┌─────────────────┐   │  ┌─────────────────┐ │  ┌─────────────┐ │
-│  │ FloatChat UI   │◄──┼──┤ Query Processor │ │  │ Data        │ │
-│  │ Interactive    │   │  │ RAG Pipeline    │ │  │ Extraction  │ │
-│  │ Visualizations │   │  │ LLM Integration │ │  │ & Cleaning  │ │
-│  └─────────────────┘   │  └─────────────────┘ │  └─────────────┘ │
-│                        │  ┌─────────────────┐ │  ┌─────────────┐ │
-│                        │  │ Database Layer  │ │  │ Vector DB   │ │
-│                        │  │ PostgreSQL      │ │  │ ChromaDB    │ │
-│                        │  │ Structured     │ │  │ Semantic    │ │
-│                        │  └─────────────────┘ │  └─────────────┘ │
+│  Frontend (Streamlit)  │  Backend (FastAPI)  │  Data Pipeline   │
+│  ┌─────────────────┐   │  ┌─────────────────┐│  ┌─────────────┐ │
+│  │ FloatChat UI   │◄── ┼──┤ Query Processor ││  │ Data        │ │
+│  │ Interactive    │    │  │ RAG Pipeline    ││  │ Extraction  │ │
+│  │ Visualizations │    │  │ LLM Integration ││  │ & Cleaning  │ │
+│  └─────────────────┘   │  └─────────────────┘│  └─────────────┘ │
+│                        │  ┌─────────────────┐│  ┌─────────────┐ │
+│                        │  │ Database Layer  ││  │ Vector DB   │ │
+│                        │  │ PostgreSQL      ││  │ ChromaDB    │ │
+│                        │  │ Structured      ││  │ Semantic    │ │
+│                        │  └─────────────────┘│  └─────────────┘ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -44,12 +44,12 @@ ARGO FloatChat is an end-to-end platform that democratizes access to oceanograph
 - **`floatchat_app.py`**: Main Streamlit application with chat interface
 - **`backend_adapter.py`**: API client for backend communication
 - **`frontend_config.py`**: Configuration and constants
-- **`requirements.txt`**: Frontend dependencies (Streamlit, Plotly, etc.)
+- **`requirements.txt`**: Frontend dependencies (Streamlit, Plotly, Leaflet.js etc.)
 
 **Features:**
 - Interactive chat interface with natural language queries
 - Real-time visualizations (maps, profiles, time series)
-- Export capabilities (CSV, JSON, NetCDF)
+- Export capabilities (CSV, JSON, NetCDF, PNG)
 - Responsive design with modern UI/UX
 
 ### ⚙️ Backend (`/backend`)
@@ -65,8 +65,8 @@ ARGO FloatChat is an end-to-end platform that democratizes access to oceanograph
 **Key Components:**
 - **Query Classification**: Determines SQL vs semantic search
 - **RAG Pipeline**: Retrieval-Augmented Generation for intelligent responses
-- **Multi-LLM Support**: Groq, OpenAI, and other providers
-- **Vector Database**: ChromaDB for semantic search
+- **Multi-LLM Support**: Groq, Hugging Face, and other providers
+- **Vector Database**: ChromaDB for semantic search, FAISS for fallback
 - **PostgreSQL**: Structured data storage
 
 ### 🧹 Data Cleaning (`/data_cleaning`)
@@ -404,6 +404,6 @@ For questions or issues:
 
 ---
 
-**Built with ❤️ for the ARGO AI Hackathon - Democratizing Ocean Data Access through AI**
+**Built with ❤️ for the SIH Hackathon **
 
 *FloatChat makes the vast ocean of data accessible to everyone, from researchers to students, through the power of artificial intelligence and natural language processing.*
