@@ -1,0 +1,15 @@
+venv/
+vector_db/
+data/raw_netcdf/
+data/exports/*.sql.gz
+data/exports/*.json
+logs/
+__pycache__/
+*.pyc
+*.pyo
+deliverables/*.zip
+
+# Environment variables (contains sensitive data)
+.env
+.env.local
+.env.production

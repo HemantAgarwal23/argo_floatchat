@@ -1,0 +1,28 @@
+# Core data processing
+numpy>=1.21.0
+pandas>=1.3.0
+netCDF4>=1.6.0
+xarray>=0.20.0
+
+# Database connectivity
+psycopg2-binary>=2.9.0
+SQLAlchemy>=1.4.0
+
+# Date and time handling
+python-dateutil>=2.8.0
+
+# Logging and utilities
+python-dotenv>=0.19.0
+tqdm>=4.62.0
+
+# Scientific computing
+scipy>=1.7.0
+
+# For vector database (later steps)
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+faiss-cpu>=1.7.0
+
+# Testing and development
+pytest>=6.0.0
+pytest-cov>=3.0.0
