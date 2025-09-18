@@ -24,9 +24,9 @@ ARGO FloatChat is an end-to-end platform that democratizes access to oceanograph
 ├─────────────────────────────────────────────────────────────────┤
 │  Frontend (Streamlit)  │  Backend (FastAPI)  │  Data Pipeline   │
 │  ┌─────────────────┐   │  ┌─────────────────┐│  ┌─────────────┐ │
-│  │ FloatChat UI   │◄── ┼──┤ Query Processor ││  │ Data        │ │
-│  │ Interactive    │    │  │ RAG Pipeline    ││  │ Extraction  │ │
-│  │ Visualizations │    │  │ LLM Integration ││  │ & Cleaning  │ │
+│  │ FloatChat UI    │◄──┼──┤ Query Processor ││  │ Data        │ │
+│  │ Interactive     │   │  │ RAG Pipeline    ││  │ Extraction  │ │
+│  │ Visualizations  │   │  │ LLM Integration ││  │ & Cleaning  │ │
 │  └─────────────────┘   │  └─────────────────┘│  └─────────────┘ │
 │                        │  ┌─────────────────┐│  ┌─────────────┐ │
 │                        │  │ Database Layer  ││  │ Vector DB   │ │
@@ -141,7 +141,7 @@ pip install -r requirements.txt
 streamlit run floatchat_app.py
 ```
 
-### 4. Data Processing (Optional)
+### 4. Data Processing 
 
 ```bash
 cd data_cleaning
@@ -314,7 +314,6 @@ pytest tests/
 - **🛡️ Input Validation**: Comprehensive validation on all endpoints
 - **🚫 SQL Injection Prevention**: Parameterized queries
 - **⏱️ Rate Limiting**: Configurable request limits
-- **📝 Audit Logging**: Structured logging for security monitoring
 
 ## 🐛 Troubleshooting
 
