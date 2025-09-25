@@ -1,0 +1,45 @@
+# ARGO AI Backend Configuration Template
+# Copy this file to .env and update with your actual API keys
+
+# =============================================================================
+# REQUIRED API KEYS
+# =============================================================================
+
+# Groq API Key (Required) - Get from https://console.groq.com/
+GROQ_API_KEY=your_groq_api_key_here
+
+# Database Password (Required)
+DB_PASSWORD=your_database_password_here
+
+# =============================================================================
+# OPTIONAL API KEYS
+# =============================================================================
+
+# Hugging Face API Key (Optional) - For fallback when Groq limits exceeded
+# Get from https://huggingface.co/settings/tokens
+HUGGINGFACE_API_KEY=your_huggingface_api_key_here
+
+# =============================================================================
+# OPTIONAL OVERRIDES
+# =============================================================================
+
+# Database Configuration (Optional - defaults are provided)
+# DB_HOST=localhost
+# DB_PORT=5432
+# DB_NAME=argo_database
+# DB_USER=jayansh
+
+# Server Configuration (Optional)
+# HOST=127.0.0.1
+# PORT=8000
+# DEBUG=true
+
+# LLM Model Configuration (Optional)
+# GROQ_MODEL=llama-3.1-8b-instant
+# GROQ_MAX_TOKENS=2048
+# GROQ_TEMPERATURE=0.1
+
+# Hugging Face Model Configuration (Optional)
+# HF_TEXT_MODEL=microsoft/DialoGPT-small
+# HF_CODE_MODEL=microsoft/DialoGPT-small
+# HF_FALLBACK_MODEL=distilgpt2
