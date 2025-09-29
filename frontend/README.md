@@ -141,11 +141,18 @@ frontend/
 ├── i18n.py                   # Internationalization system
 ├── multilingual_components.py # Multilingual UI components
 ├── start_app.py              # Application launcher
+├── floatchat.ps1             # PowerShell launcher script
+├── run_dev.sh                # Development startup script
+├── startup.sh                # Unix startup script
 ├── locales/                  # Translation files
 │   ├── en.json              # English translations
 │   ├── es.json              # Spanish translations
 │   ├── fr.json              # French translations
 │   └── hi.json              # Hindi translations
+├── test_app_startup.py       # Application startup tests
+├── test_backend_connection.py # Backend connection tests
+├── test_multilingual.py      # Multilingual functionality tests
+├── test_i18n_simple.py       # Internationalization tests
 ├── requirements.txt          # Python dependencies
 └── README.md                # This file
 ```

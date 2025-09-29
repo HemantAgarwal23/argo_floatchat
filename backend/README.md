@@ -184,16 +184,23 @@ The system intelligently routes queries:
 ### Project Structure
 
 ```
-argo-ai-backend/
-├── app/
-│   ├── api/routes/          # API endpoints
-│   ├── core/               # Database and LLM clients
-│   ├── services/           # Business logic
-│   ├── models/             # Pydantic models
-│   └── utils/              # Utilities
-├── data/                   # Data files
-├── scripts/               # Setup scripts
-└── tests/                 # Test suite
+backend/
+├── app/                    # Core application modules
+│   ├── api/routes/         # REST API endpoints
+│   ├── core/              # Database and LLM clients
+│   ├── services/          # Business logic and RAG pipeline
+│   ├── models/            # Pydantic data models
+│   ├── locales/           # Multilingual translation files
+│   └── utils/             # Utility functions
+├── scripts/               # Setup and utility scripts
+├── tests/                 # Test suite
+├── README.md             # Backend documentation
+├── MCP_README.md         # MCP server documentation
+├── requirements.txt      # Python dependencies
+├── requirements_mcp.txt  # MCP-specific dependencies
+├── mcp_config.json       # MCP server configuration
+├── start_mcp_server.py   # MCP server launcher
+└── test_mcp_server.py    # MCP server tests
 ```
 
 ### Running Tests

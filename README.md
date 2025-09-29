@@ -25,14 +25,14 @@ ARGO FloatChat is a comprehensive AI-powered platform for discovering, analyzing
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                        ARGO FloatChat Platform                 │
+│                        ARGO FloatChat Platform                  │
 ├─────────────────────────────────────────────────────────────────┤
-│  Frontend (Streamlit)    │  Backend (FastAPI)   │  Data Pipeline  │
-│  ┌─────────────────┐    │  ┌─────────────────┐ │  ┌─────────────┐ │
-│  │ Multilingual UI │    │  │ RAG Pipeline    │ │  │ ETL Process │ │
-│  │ Visualization   │◄───┤  │ LLM Integration │◄──┤ Data Source │ │
-│  │ Query Interface │    │  │ Vector Search   │ │  │ Processing  │ │
-│  └─────────────────┘    │  └─────────────────┘ │  └─────────────┘ │
+│  Frontend (Streamlit)   │  Backend (FastAPI)   │  Data Pipeline │
+│  ┌─────────────────┐    │  ┌─────────────────┐ │ ┌────────────┐ │
+│  │ Multilingual UI │    │  │ RAG Pipeline    │ │ │ETL Process │ │
+│  │ Visualization   │◄───┤  │ LLM Integration │◄──┤Data Source │ │
+│  │ Query Interface │    │  │ Vector Search   │ │ │ Processing │ │
+│  └─────────────────┘    │  └─────────────────┘ │ └────────────┘ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -75,8 +75,8 @@ pip install -r requirements.txt
 5. **Configure environment**:
 ```bash
 # Create .env file in backend directory
-cp backend/.env.example backend/.env
-# Edit with your database credentials and API keys
+# Copy the example and edit with your credentials
+# You'll need to create .env file manually with your database and API keys
 ```
 
 ### Running the Application

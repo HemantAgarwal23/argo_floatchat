@@ -33,7 +33,7 @@ python scripts/master_pipeline.py
 ## Project Structure
 
 ```
-argo-bgc-pipeline/
+data_etl_pipeline/
 ├── scripts/                    # Pipeline scripts
 │   ├── master_pipeline.py     # Main orchestrator
 │   ├── robust_download.py     # Download with retry
@@ -44,7 +44,12 @@ argo-bgc-pipeline/
 │   └── cleanup.py             # Clean temporary files
 ├── data/                      # Data directory (created on first run)
 │   ├── raw/YYYY/              # Downloaded NetCDF files
+│   │   ├── 01/                # January data
+│   │   ├── 02/                # February data
+│   │   └── ...                # Other months
 │   ├── processed/             # Processed CSV and JSON
+│   │   ├── argo_data_YYYY.csv
+│   │   └── argo_summary_YYYY.json
 │   └── deliverables/          # Final PostgreSQL deliverables
 │       ├── argo_database_YYYY.sql
 │       ├── argo_database_YYYY.sql.gz
