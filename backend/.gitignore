@@ -1,0 +1,65 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Testing / coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# ========================
+# Editors / IDEs
+# ========================
+.vscode/
+.idea/
+*.swp
+
+# ========================
+# Node / Frontend (if used)
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# OS-specific
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# SQL files
+# ========================
+*.sql

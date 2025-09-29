@@ -1,0 +1,122 @@
+{
+  "app_title": "FloatChat - ARGO महासागर डेटा एक्सप्लोरर",
+  "app_subtitle": "AI-संचालित महासागर डेटा खोज और विजुअलाइजेशन",
+  
+  "navigation": {
+    "home": "होम",
+    "chat": "चैट",
+    "data_explorer": "डेटा एक्सप्लोरर",
+    "visualizations": "विजुअलाइजेशन",
+    "settings": "सेटिंग्स",
+    "help": "सहायता"
+  },
+  
+  "sidebar": {
+    "language": "भाषा",
+    "theme": "थीम",
+    "quick_queries": "त्वरित प्रश्न",
+    "recent_searches": "हाल की खोजें",
+    "data_statistics": "डेटा आंकड़े"
+  },
+  
+  "chat": {
+    "input_placeholder": "महासागर डेटा के बारे में कुछ भी पूछें...",
+    "send_button": "भेजें",
+    "thinking": "सोच रहा है...",
+    "no_response": "कोई प्रतिक्रिया नहीं मिली",
+    "error_occurred": "एक त्रुटि हुई",
+    "try_again": "फिर से कोशिश करें"
+  },
+  
+  "quick_queries": {
+    "title": "त्वरित प्रश्न",
+    "temperature_profiles": "हिंद महासागर तापमान प्रोफाइल (पिछला महीना)",
+    "salinity_comparison": "भूमध्य रेखा के पास लवणता तुलना (2022-2023)",
+    "nearest_floats": "ARGO फ्लोट्स 20°N, 70°E के पास",
+    "bgc_oxygen": "अरब सागर में BGC ऑक्सीजन स्तर",
+    "float_trajectories": "बंगाल की खाड़ी में फ्लोट ट्रैजेक्टरी",
+    "temperature_anomaly": "भूमध्यवर्ती प्रशांत तापमान विसंगति",
+    "chlorophyll_comparison": "महासागर क्षेत्रों में क्लोरोफिल तुलना",
+    "deep_water_trends": "गहरे पानी के तापमान रुझान (पिछला साल)"
+  },
+  
+  "regions": {
+    "indian_ocean": "हिंद महासागर",
+    "arabian_sea": "अरब सागर",
+    "bay_of_bengal": "बंगाल की खाड़ी",
+    "equatorial_pacific": "भूमध्यवर्ती प्रशांत",
+    "north_atlantic": "उत्तरी अटलांटिक",
+    "southern_ocean": "दक्षिणी महासागर"
+  },
+  
+  "parameters": {
+    "temperature": "तापमान",
+    "salinity": "लवणता",
+    "pressure": "दबाव",
+    "depth": "गहराई",
+    "dissolved_oxygen": "घुलित ऑक्सीजन",
+    "ph": "pH",
+    "nitrate": "नाइट्रेट",
+    "chlorophyll": "क्लोरोफिल"
+  },
+  
+  "data_stats": {
+    "total_floats": "कुल फ्लोट्स",
+    "total_profiles": "कुल प्रोफाइल",
+    "date_range": "तिथि सीमा",
+    "profiles_with_bgc": "BGC डेटा के साथ प्रोफाइल",
+    "geographic_coverage": "भौगोलिक कवरेज",
+    "latest_update": "नवीनतम अपडेट"
+  },
+  
+  "visualizations": {
+    "map_view": "मानचित्र दृश्य",
+    "time_series": "समय श्रृंखला",
+    "scatter_plot": "स्कैटर प्लॉट",
+    "heatmap": "हीटमैप",
+    "profile_view": "प्रोफाइल दृश्य"
+  },
+  
+  "export": {
+    "download_data": "डेटा डाउनलोड करें",
+    "formats": {
+      "csv": "CSV",
+      "json": "JSON",
+      "netcdf": "NetCDF",
+      "xlsx": "Excel"
+    }
+  },
+  
+  "status": {
+    "online": "ऑनलाइन",
+    "offline": "ऑफलाइन",
+    "connecting": "कनेक्ट हो रहा है...",
+    "connected": "कनेक्टेड",
+    "disconnected": "डिस्कनेक्टेड"
+  },
+  
+  "errors": {
+    "connection_failed": "बैकएंड से कनेक्शन विफल",
+    "data_not_found": "आपके प्रश्न के लिए कोई डेटा नहीं मिला",
+    "invalid_query": "अमान्य प्रश्न प्रारूप",
+    "server_error": "सर्वर त्रुटि हुई",
+    "timeout": "अनुरोध समय समाप्त"
+  },
+  
+  "help": {
+    "title": "सहायता और दस्तावेज",
+    "getting_started": "शुरुआत करना",
+    "query_examples": "प्रश्न उदाहरण",
+    "data_sources": "डेटा स्रोत",
+    "api_documentation": "API दस्तावेज",
+    "contact_support": "सहायता से संपर्क करें"
+  },
+  
+  "settings": {
+    "title": "सेटिंग्स",
+    "language_settings": "भाषा सेटिंग्स",
+    "display_settings": "प्रदर्शन सेटिंग्स",
+    "data_settings": "डेटा सेटिंग्स",
+    "advanced_settings": "उन्नत सेटिंग्स"
+  }
+}

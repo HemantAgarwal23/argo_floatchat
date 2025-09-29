@@ -1,0 +1,34 @@
+{
+  "responses": {
+    "query_processed": "Requête traitée avec succès",
+    "data_found": "Trouvé {count} enregistrements correspondant à votre requête",
+    "no_data_found": "Aucune donnée trouvée pour votre requête",
+    "processing_query": "Traitement de votre requête...",
+    "generating_visualization": "Génération de la visualisation...",
+    "export_ready": "Export prêt au téléchargement"
+  },
+  
+  "errors": {
+    "connection_failed": "Échec de la connexion à la base de données",
+    "invalid_query": "Format de requête invalide",
+    "data_not_found": "Aucune donnée trouvée pour votre requête",
+    "server_error": "Erreur du serveur",
+    "timeout": "Délai d'attente dépassé",
+    "validation_error": "Échec de la validation de la requête"
+  },
+  
+  "visualizations": {
+    "map_title": "Emplacements des Flotteurs ARGO",
+    "temperature_profile": "Profil de Température",
+    "salinity_distribution": "Distribution de Salinité",
+    "oxygen_levels": "Niveaux d'Oxygène Dissous",
+    "time_series": "Analyse de Série Temporelle"
+  },
+  
+  "data_stats": {
+    "total_records": "Total des Enregistrements",
+    "date_range": "Plage de Dates",
+    "geographic_coverage": "Couverture Géographique",
+    "parameter_count": "Paramètres Disponibles"
+  }
+}

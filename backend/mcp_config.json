@@ -1,0 +1,48 @@
+{
+  "mcpServers": {
+    "argo-floatchat": {
+      "command": "python",
+      "args": ["app/mcp_server.py"],
+      "cwd": ".",
+      "env": {
+        "PYTHONPATH": ".",
+        "DATABASE_URL": "postgresql://jayansh:123456@localhost:5432/argo_db",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  },
+  "capabilities": {
+    "tools": true,
+    "resources": true,
+    "prompts": false
+  },
+  "serverInfo": {
+    "name": "ARGO FloatChat MCP Server",
+    "version": "1.0.0",
+    "description": "Intelligent oceanographic data analysis for ARGO float data",
+    "author": "ARGO FloatChat Team",
+    "repository": "https://github.com/your-org/argo-floatchat"
+  },
+  "features": {
+    "multilingual": true,
+    "real_time_analysis": true,
+    "advanced_visualizations": true,
+    "intelligent_queries": true,
+    "database_integration": true
+  },
+  "supportedLanguages": [
+    "en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "ar", "hi"
+  ],
+  "dataConstraints": {
+    "scope": "Indian Ocean ARGO data only",
+    "external_sources": false,
+    "data_sources": [
+      "ARGO float profiles",
+      "Temperature measurements",
+      "Salinity measurements", 
+      "BGC parameters",
+      "Float trajectories"
+    ]
+  }
+}

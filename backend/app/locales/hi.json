@@ -1,0 +1,34 @@
+{
+  "responses": {
+    "query_processed": "क्वेरी सफलतापूर्वक संसाधित",
+    "data_found": "आपकी क्वेरी से मेल खाने वाले {count} रिकॉर्ड मिले",
+    "no_data_found": "आपकी क्वेरी के लिए कोई डेटा नहीं मिला",
+    "processing_query": "आपकी क्वेरी संसाधित की जा रही है...",
+    "generating_visualization": "विजुअलाइजेशन जेनरेट किया जा रहा है...",
+    "export_ready": "एक्सपोर्ट डाउनलोड के लिए तैयार"
+  },
+  
+  "errors": {
+    "connection_failed": "डेटाबेस से कनेक्शन विफल",
+    "invalid_query": "अमान्य क्वेरी प्रारूप",
+    "data_not_found": "आपकी क्वेरी के लिए कोई डेटा नहीं मिला",
+    "server_error": "सर्वर त्रुटि हुई",
+    "timeout": "अनुरोध समय समाप्त",
+    "validation_error": "क्वेरी सत्यापन विफल"
+  },
+  
+  "visualizations": {
+    "map_title": "ARGO फ्लोट स्थान",
+    "temperature_profile": "तापमान प्रोफाइल",
+    "salinity_distribution": "लवणता वितरण",
+    "oxygen_levels": "घुलित ऑक्सीजन स्तर",
+    "time_series": "समय श्रृंखला विश्लेषण"
+  },
+  
+  "data_stats": {
+    "total_records": "कुल रिकॉर्ड",
+    "date_range": "तिथि सीमा",
+    "geographic_coverage": "भौगोलिक कवरेज",
+    "parameter_count": "उपलब्ध पैरामीटर"
+  }
+}

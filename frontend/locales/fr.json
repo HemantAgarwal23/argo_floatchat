@@ -1,0 +1,122 @@
+{
+  "app_title": "FloatChat - Explorateur de Données Océaniques ARGO",
+  "app_subtitle": "Découverte et Visualisation de Données Océaniques avec IA",
+  
+  "navigation": {
+    "home": "Accueil",
+    "chat": "Chat",
+    "data_explorer": "Explorateur de Données",
+    "visualizations": "Visualisations",
+    "settings": "Paramètres",
+    "help": "Aide"
+  },
+  
+  "sidebar": {
+    "language": "Langue",
+    "theme": "Thème",
+    "quick_queries": "Requêtes Rapides",
+    "recent_searches": "Recherches Récentes",
+    "data_statistics": "Statistiques des Données"
+  },
+  
+  "chat": {
+    "input_placeholder": "Demandez-moi n'importe quoi sur les données océaniques...",
+    "send_button": "Envoyer",
+    "thinking": "Réflexion...",
+    "no_response": "Aucune réponse reçue",
+    "error_occurred": "Une erreur s'est produite",
+    "try_again": "Réessayer"
+  },
+  
+  "quick_queries": {
+    "title": "Requêtes Rapides",
+    "temperature_profiles": "Profils de température océan Indien (mois dernier)",
+    "salinity_comparison": "Comparaison salinité près équateur (2022-2023)",
+    "nearest_floats": "Flotteurs ARGO près de 20°N, 70°E",
+    "bgc_oxygen": "Niveaux d'oxygène BGC mer d'Arabie",
+    "float_trajectories": "Trajectoires flotteurs golfe du Bengale",
+    "temperature_anomaly": "Anomalie température Pacifique équatorial",
+    "chlorophyll_comparison": "Comparaison chlorophylle régions océaniques",
+    "deep_water_trends": "Tendances température eaux profondes (année dernière)"
+  },
+  
+  "regions": {
+    "indian_ocean": "Océan Indien",
+    "arabian_sea": "Mer d'Arabie",
+    "bay_of_bengal": "Golfe du Bengale",
+    "equatorial_pacific": "Pacifique Équatorial",
+    "north_atlantic": "Atlantique Nord",
+    "southern_ocean": "Océan Austral"
+  },
+  
+  "parameters": {
+    "temperature": "Température",
+    "salinity": "Salinité",
+    "pressure": "Pression",
+    "depth": "Profondeur",
+    "dissolved_oxygen": "Oxygène Dissous",
+    "ph": "pH",
+    "nitrate": "Nitrate",
+    "chlorophyll": "Chlorophylle"
+  },
+  
+  "data_stats": {
+    "total_floats": "Total des Flotteurs",
+    "total_profiles": "Total des Profils",
+    "date_range": "Plage de Dates",
+    "profiles_with_bgc": "Profils avec Données BGC",
+    "geographic_coverage": "Couverture Géographique",
+    "latest_update": "Dernière Mise à Jour"
+  },
+  
+  "visualizations": {
+    "map_view": "Vue Carte",
+    "time_series": "Série Temporelle",
+    "scatter_plot": "Graphique de Dispersion",
+    "heatmap": "Carte de Chaleur",
+    "profile_view": "Vue Profil"
+  },
+  
+  "export": {
+    "download_data": "Télécharger les Données",
+    "formats": {
+      "csv": "CSV",
+      "json": "JSON",
+      "netcdf": "NetCDF",
+      "xlsx": "Excel"
+    }
+  },
+  
+  "status": {
+    "online": "En Ligne",
+    "offline": "Hors Ligne",
+    "connecting": "Connexion...",
+    "connected": "Connecté",
+    "disconnected": "Déconnecté"
+  },
+  
+  "errors": {
+    "connection_failed": "Échec de la connexion au serveur",
+    "data_not_found": "Aucune donnée trouvée pour votre requête",
+    "invalid_query": "Format de requête invalide",
+    "server_error": "Erreur du serveur",
+    "timeout": "Délai d'attente dépassé"
+  },
+  
+  "help": {
+    "title": "Aide et Documentation",
+    "getting_started": "Premiers Pas",
+    "query_examples": "Exemples de Requêtes",
+    "data_sources": "Sources de Données",
+    "api_documentation": "Documentation API",
+    "contact_support": "Contacter le Support"
+  },
+  
+  "settings": {
+    "title": "Paramètres",
+    "language_settings": "Paramètres de Langue",
+    "display_settings": "Paramètres d'Affichage",
+    "data_settings": "Paramètres de Données",
+    "advanced_settings": "Paramètres Avancés"
+  }
+}

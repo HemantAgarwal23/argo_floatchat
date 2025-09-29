@@ -1,0 +1,122 @@
+{
+  "app_title": "FloatChat - ARGO Ocean Data Explorer",
+  "app_subtitle": "AI-Powered Ocean Data Discovery & Visualization",
+  
+  "navigation": {
+    "home": "Home",
+    "chat": "Chat",
+    "data_explorer": "Data Explorer",
+    "visualizations": "Visualizations",
+    "settings": "Settings",
+    "help": "Help"
+  },
+  
+  "sidebar": {
+    "language": "Language",
+    "theme": "Theme",
+    "quick_queries": "Quick Queries",
+    "recent_searches": "Recent Searches",
+    "data_statistics": "Data Statistics"
+  },
+  
+  "chat": {
+    "input_placeholder": "Ask me anything about ocean data...",
+    "send_button": "Send",
+    "thinking": "Thinking...",
+    "no_response": "No response received",
+    "error_occurred": "An error occurred",
+    "try_again": "Try again"
+  },
+  
+  "quick_queries": {
+    "title": "Quick Queries",
+    "temperature_profiles": "Show me temperature profiles in the Indian Ocean for the last month",
+    "salinity_comparison": "Compare salinity data near the equator between 2022 and 2023",
+    "nearest_floats": "Find the nearest ARGO floats to coordinates 20°N, 70°E",
+    "bgc_oxygen": "Display BGC oxygen levels in the Arabian Sea",
+    "float_trajectories": "Show float trajectories in the Bay of Bengal",
+    "temperature_anomaly": "What's the temperature anomaly in the equatorial Pacific?",
+    "chlorophyll_comparison": "Compare chlorophyll levels in different ocean regions",
+    "deep_water_trends": "Show deep water temperature trends over the last year"
+  },
+  
+  "regions": {
+    "indian_ocean": "Indian Ocean",
+    "arabian_sea": "Arabian Sea",
+    "bay_of_bengal": "Bay of Bengal",
+    "equatorial_pacific": "Equatorial Pacific",
+    "north_atlantic": "North Atlantic",
+    "southern_ocean": "Southern Ocean"
+  },
+  
+  "parameters": {
+    "temperature": "Temperature",
+    "salinity": "Salinity",
+    "pressure": "Pressure",
+    "depth": "Depth",
+    "dissolved_oxygen": "Dissolved Oxygen",
+    "ph": "pH",
+    "nitrate": "Nitrate",
+    "chlorophyll": "Chlorophyll"
+  },
+  
+  "data_stats": {
+    "total_floats": "Total Floats",
+    "total_profiles": "Total Profiles",
+    "date_range": "Date Range",
+    "profiles_with_bgc": "Profiles with BGC Data",
+    "geographic_coverage": "Geographic Coverage",
+    "latest_update": "Latest Update"
+  },
+  
+  "visualizations": {
+    "map_view": "Map View",
+    "time_series": "Time Series",
+    "scatter_plot": "Scatter Plot",
+    "heatmap": "Heatmap",
+    "profile_view": "Profile View"
+  },
+  
+  "export": {
+    "download_data": "Download Data",
+    "formats": {
+      "csv": "CSV",
+      "json": "JSON",
+      "netcdf": "NetCDF",
+      "xlsx": "Excel"
+    }
+  },
+  
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "connecting": "Connecting...",
+    "connected": "Connected",
+    "disconnected": "Disconnected"
+  },
+  
+  "errors": {
+    "connection_failed": "Connection to backend failed",
+    "data_not_found": "No data found for your query",
+    "invalid_query": "Invalid query format",
+    "server_error": "Server error occurred",
+    "timeout": "Request timeout"
+  },
+  
+  "help": {
+    "title": "Help & Documentation",
+    "getting_started": "Getting Started",
+    "query_examples": "Query Examples",
+    "data_sources": "Data Sources",
+    "api_documentation": "API Documentation",
+    "contact_support": "Contact Support"
+  },
+  
+  "settings": {
+    "title": "Settings",
+    "language_settings": "Language Settings",
+    "display_settings": "Display Settings",
+    "data_settings": "Data Settings",
+    "advanced_settings": "Advanced Settings"
+  }
+}

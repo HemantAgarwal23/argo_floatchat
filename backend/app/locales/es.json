@@ -1,0 +1,34 @@
+{
+  "responses": {
+    "query_processed": "Consulta procesada exitosamente",
+    "data_found": "Se encontraron {count} registros que coinciden con su consulta",
+    "no_data_found": "No se encontraron datos para su consulta",
+    "processing_query": "Procesando su consulta...",
+    "generating_visualization": "Generando visualización...",
+    "export_ready": "Exportación lista para descargar"
+  },
+  
+  "errors": {
+    "connection_failed": "Falló la conexión a la base de datos",
+    "invalid_query": "Formato de consulta inválido",
+    "data_not_found": "No se encontraron datos para su consulta",
+    "server_error": "Ocurrió un error del servidor",
+    "timeout": "Tiempo de espera agotado",
+    "validation_error": "Falló la validación de la consulta"
+  },
+  
+  "visualizations": {
+    "map_title": "Ubicaciones de Flotadores ARGO",
+    "temperature_profile": "Perfil de Temperatura",
+    "salinity_distribution": "Distribución de Salinidad",
+    "oxygen_levels": "Niveles de Oxígeno Disuelto",
+    "time_series": "Análisis de Serie Temporal"
+  },
+  
+  "data_stats": {
+    "total_records": "Total de Registros",
+    "date_range": "Rango de Fechas",
+    "geographic_coverage": "Cobertura Geográfica",
+    "parameter_count": "Parámetros Disponibles"
+  }
+}
