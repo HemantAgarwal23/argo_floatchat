@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Data files (large)
+data/
+*.csv
+*.json
+*.nc
+*.netcdf
+
+# Cache
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Documentation
+*.md
+docs/
+
+# Test files
+tests/
+*_test.py
+test_*.py
+
+# Deployment files (not needed in container)
+render.yaml
+vercel.json
+DEPLOYMENT*.md
+deploy.*
