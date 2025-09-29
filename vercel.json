@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ],
+  "env": {
+    "BACKEND_URL": "@backend_url",
+    "BACKEND_TIMEOUT": "30",
+    "DEFAULT_LANGUAGE": "en",
+    "LOG_LEVEL": "INFO"
+  },
+  "functions": {
+    "app.py": {
+      "maxDuration": 30
+    }
+  },
+  "regions": ["iad1"]
+}

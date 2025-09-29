@@ -1,0 +1,49 @@
+services:
+  # Backend API Service
+  - type: web
+    name: argo-backend
+    env: python
+    plan: starter
+    buildCommand: |
+      cd backend && 
+      pip install -r requirements.txt
+    startCommand: cd backend && python run.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: DEBUG
+        value: false
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 10000
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DB_HOST
+        value: your-render-postgres-host
+      - key: DB_PORT
+        value: 5432
+      - key: DB_NAME
+        value: argo_database
+      - key: DB_USER
+        value: your-db-username
+      - key: DB_PASSWORD
+        sync: false
+      - key: HUGGINGFACE_API_KEY
+        sync: false
+      - key: CHROMA_PERSIST_DIR
+        value: /opt/render/project/src/backend/data/vector_db
+
+  # PostgreSQL Database
+  - type: pserv
+    name: argo-postgres
+    env: postgresql
+    plan: starter
+    ipAllowList: []
+    maxConnections: 10
+
+databases:
+  - name: argo-postgres
+    plan: starter
+    databaseName: argo_database
+    user: argo_user
