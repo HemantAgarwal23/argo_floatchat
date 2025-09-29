@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.py",
+      "src": "frontend/floatchat_app.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app.py"
+      "dest": "frontend/floatchat_app.py"
     }
   ],
   "env": {
@@ -19,7 +19,7 @@
     "LOG_LEVEL": "INFO"
   },
   "functions": {
-    "app.py": {
+    "frontend/floatchat_app.py": {
       "maxDuration": 30
     }
   },

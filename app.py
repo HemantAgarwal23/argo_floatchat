@@ -10,5 +10,9 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'frontend'))
 # Import and run the Streamlit app
 from floatchat_app import main
 
+# Vercel serverless function handler
+def handler(request):
+    return main()
+
 if __name__ == "__main__":
     main()
